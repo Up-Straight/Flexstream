@@ -10,7 +10,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   int motion_h;
-  int motion_v;
   motion_h = analogRead(A3);
   Serial.print(motion_h * (5.0 / 1023.0));
   Serial.print("\n");
